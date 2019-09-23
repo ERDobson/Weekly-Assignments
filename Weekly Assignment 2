@@ -1,0 +1,6 @@
+I used grep -c ">" to get a count for how many different protein sequences there were in the coffeechlor2.fasta file I made.  I got 85.
+Each of the 85 are grouped in a file I uploaded called coffeeprot.txt.
+By "grepping" for "photosystem" I found 22 subunits existed.
+I am also attaching CF1.fasta which is the sequence for the CF1 Beta subunit. I need a sed command with 57 and 58 as my
+endpoints to get that data.  Grep -n helped me find WHERE I was searching and sed helped me pull out just the section
+I needed.  (I believe the command was sed -n 57,58p (filename).)
